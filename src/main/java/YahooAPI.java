@@ -21,7 +21,6 @@ public class YahooAPI {
             System.out.println(historicalQuote.getClose());
     }
 
-
     public static void printTotal(List<HistoricalQuote> historicalQuotes) {
         BigDecimal totalClose = historicalQuotes
                 .stream()
